@@ -13,7 +13,7 @@ context("google search", () => {
     cy.get(".gLFyf.gsfi").type(`${searchWord}{enter}`);
   });
 
-  it(`the page title should start with ${searchWord}`, async () => {
+  it(`the page title should start with ${searchWord}`, () => {
     cy.title().should("contain", searchWord);
   });
 });
