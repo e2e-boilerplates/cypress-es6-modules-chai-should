@@ -1,4 +1,4 @@
-# cypress (commonjs, es6 modules)
+# cypress
 cypress end-to-end test automation boilerplate project.
 
 ## Getting Started
