@@ -63,3 +63,7 @@ typings/
 .idea/
 
 .DS_Store
+
+# cypress video and screenshoots
+cypress/videos/
+cypress/screenshot/

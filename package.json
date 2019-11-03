@@ -1,15 +1,16 @@
 {
-  "name": "cypress-commonjs-es6modules",
+  "name": "cypress",
   "version": "1.0.0",
-  "description": "cypress end-to-end test automation boilerplate project. Using commonjs and es6 modules",
+  "description": "cypress end-to-end test automation boilerplate project.",
   "scripts": {
-    "test": "npx cypress open",
+    "clean:video": "npx rimraf cypress/videos/*",
+    "clean:screenshots": "npx cypress/screenshots/*",
+    "open": "npx cypress open",
+    "run": "npx cypress run",
     "lint": "npx eslint --ext .js ./ --fix"
   },
   "keywords": [
     "cypress",
-    "commonjs",
-    "es6 modules",
     "boilerplate",
     "example"
   ],
@@ -23,6 +24,20 @@
     "eslint-plugin-cypress": "^2.7.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.18.2"
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "rimraf": "^3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
