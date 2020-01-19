@@ -1,4 +1,7 @@
 # cypress
+[![GitHub Actions status | e2e-boilerplates/cypress-typescript-browserify](https://github.com/e2e-boilerplates/cypress-typescript-browserify/workflows/NodeCI/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-browserify/actions?workflow=NodeCI)
+
+
 cypress end-to-end test automation boilerplate project.
 
 ## Getting Started
