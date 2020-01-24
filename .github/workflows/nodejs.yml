@@ -1,4 +1,4 @@
-name: NodeCI
+name: cypress
 
 on: [push]
 
