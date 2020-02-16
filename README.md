@@ -1,4 +1,4 @@
-# Cypress: (ES6 Modules. Chai, and Should)
+# Cypress: (ES6 Modules. Chai and Should)
 [![GitHub Actions status | e2e-boilerplates/cypress-es6-modules-chai-should](https://github.com/e2e-boilerplates/cypress-es6-modules-chai-should/workflows/cypress-es6-modules-chai-should/badge.svg)](https://github.com/e2e-boilerplates/cypress-es6-modules-chai-should/actions?workflow=cypress-es6-modules-chai-should)
 
 
