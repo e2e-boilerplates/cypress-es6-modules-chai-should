@@ -1,14 +1,14 @@
 {
-  "name": "cypress",
+  "name": "cypress-es6-modules-chai-should",
   "version": "1.0.0",
-  "description": "cypress end-to-end test automation boilerplate project.",
+  "description": "Cypress end-to-end test automation boilerplate, ES6 Modules. Chai, and Should",
   "scripts": {
     "clean:video": "npx rimraf cypress/videos/*",
     "clean:screenshots": "npx cypress/screenshots/*",
+    "lint": "npx eslint --ext .js ./ --fix",
     "open": "npx cypress open",
     "test": "npx cypress run",
-    "test-ci": "npx cypress run --headless",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "test-ci": "npx cypress run --headless"
   },
   "keywords": [
     "cypress",
