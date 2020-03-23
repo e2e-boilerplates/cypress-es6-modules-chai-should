@@ -5,9 +5,7 @@
 Cypress end-to-end test automation boilerplate, Using ES Modules, Chai and Should.
     
 ## Getting Started
-    
-1. git clone git@github.com:e2e-boilerplate/cypress-es-modules-chai-should.git
-    
-2. cd cypress-es-modules-chai-should
-    
-3. npm install
+    	1. git clone git@github.com:e2e-boilerplate/cypress-es-modules-chai-should.git
+    	2. cd cypress-es-modules-chai-should
+    	3. npm install
+    	4. npm run test
