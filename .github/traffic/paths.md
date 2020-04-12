@@ -3,7 +3,6 @@
 | /e2e-boilerplate/cypress-es-modules-chai-should                                          | 4     | 2       |
 | /e2e-boilerplate/cypress-es-modules-chai-should/tree/master/.github/traffic              | 4     | 1       |
 | /e2e-boilerplate/cypress-es-modules-chai-should/actions                                  | 1     | 1       |
-| /e2e-boilerplate/cypress-es-modules-chai-should/actions/runs/64985210                    | 1     | 1       |
 | /e2e-boilerplate/cypress-es-modules-chai-should/blob/master/.github/traffic/clones.md    | 1     | 1       |
 | /e2e-boilerplate/cypress-es-modules-chai-should/blob/master/.github/traffic/paths.md     | 1     | 1       |
 | /e2e-boilerplate/cypress-es-modules-chai-should/blob/master/.github/traffic/referrers.md | 1     | 1       |
