@@ -27,15 +27,16 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
     "cypress",
+    "es modules",
+    "should",
     "e2e",
     "e2e tests",
-    "es modules",
-    "example",
+    "boilerplate",
     "integration test",
-    "should"
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
